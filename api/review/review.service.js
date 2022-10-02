@@ -9,7 +9,7 @@ async function query(filterBy = {}) {
         const collection = await dbService.getCollection('review')
         // const reviews = await collection.find(criteria).toArray()
         
-        var reviews = await collection.aggregate([
+        let reviews = await collection.aggregate([
             {
                 $match: criteria
             },

@@ -7,9 +7,9 @@ module.exports = {
 }
 
 // Database Name
-const dbName = 'tester_db'
+const dbName = 'wind_db'
 
-var dbConn = null
+const dbConn = null
 
 async function getCollection(collectionName) {
     try {
