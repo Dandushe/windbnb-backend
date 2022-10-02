@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0535036a.css",
+    "main.js": "/static/js/main.5415bd63.js",
+    "static/media/AirbnbCerealMedium.woff": "/static/media/AirbnbCerealMedium.8a9ee95760624b68a412.woff",
+    "static/media/AirbnbCerealBold.woff": "/static/media/AirbnbCerealBold.f286ae85c8aca0aeaa50.woff",
+    "static/media/AirbnbCerealLight.woff": "/static/media/AirbnbCerealLight.b23120006d8eb043d64a.woff",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.0535036a.css.map": "/static/css/main.0535036a.css.map",
+    "main.5415bd63.js.map": "/static/js/main.5415bd63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0535036a.css",
+    "static/js/main.5415bd63.js"
+  ]
+}
