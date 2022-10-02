@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient
-
+const logger = require('../services/logger.service')
 const config = require('../config')
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
 // Database Name
 const dbName = 'wind_db'
 
-const dbConn = null
+let dbConn = null
 
 async function getCollection(collectionName) {
     try {
