@@ -1,6 +1,6 @@
 const reservationService = require('./reservation.service.js');
 const logger = require('../../services/logger.service')
-
+const socketService = require('../../services/socket.service')
 
 // GET LIST
 async function getReservations(req, res) {
@@ -32,6 +32,7 @@ async function addReservation(req, res) {
   try {
     const reservation = req.body
     const addedReservation = await reservationService.add(reservation)
+    socketService.emitToUser({ type: 'added-reservation', data: { type: 'success', txt: 'new reservation' }, userId: addedReservation.hostId })
     res.json(addedReservation)
   } catch (err) {
     logger.error('Failed to add reservation', err)
